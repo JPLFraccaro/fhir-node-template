@@ -1,0 +1,26 @@
+{
+  "name": "fhir-node-template",
+  "version": "1.0.0",
+  "description": "fhir basic template with postgresql db",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HL7",
+    "FHIR",
+    "TEMPLATE"
+  ],
+  "author": "JPLFraccaro",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "fhir": "^4.12.0",
+    "nodemon": "^3.1.4",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3"
+  }
+}
